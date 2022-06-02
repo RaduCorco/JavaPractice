@@ -42,11 +42,6 @@ public class PersoanaAngajatAbstract extends PersoanaAbstract {
     }
 
     @Override
-    void munceste() {
-
-    }
-
-    @Override
     void primesteSalar() {
 
     }
@@ -58,11 +53,6 @@ public class PersoanaAngajatAbstract extends PersoanaAbstract {
 
     @Override
     void primestebursa() {
-
-    }
-
-    @Override
-    void Primestebursa() {
 
     }
 

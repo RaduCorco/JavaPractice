@@ -6,6 +6,11 @@ public class PersoanaStudentAbstract extends PersoanaAbstract {
     private String prenume;
     private String meserie;
 
+    public PersoanaStudentAbstract(String nume, String prenume, String meserie) {
+        this.nume = nume;
+        this.prenume = prenume;
+        this.meserie = meserie;
+    }
 
     public String getNume() {
         return nume;
@@ -31,21 +36,8 @@ public class PersoanaStudentAbstract extends PersoanaAbstract {
         this.meserie = meserie;
     }
 
-    public PersoanaStudentAbstract(String nume, String prenume, String meserie) {
-        this.nume = nume;
-        this.prenume = prenume;
-        this.meserie = meserie;
-
-
-    }
-
     @Override
     void Munceste() {
-
-    }
-
-    @Override
-    void munceste() {
 
     }
 
@@ -61,11 +53,6 @@ public class PersoanaStudentAbstract extends PersoanaAbstract {
 
     @Override
     void primestebursa() {
-
-    }
-
-    @Override
-    void Primestebursa() {
 
     }
 
